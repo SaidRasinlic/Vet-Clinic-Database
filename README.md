@@ -18,8 +18,8 @@ To get a local copy up and running follow these simple example steps.
 - Laptop or Desktop
 - Web Browser
 - IDE
+- PostgreSQL Service
 - Programming Knowledge
-- PostgreSQL Service 
 
 ### Setup
 
