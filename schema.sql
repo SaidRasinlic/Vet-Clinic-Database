@@ -55,3 +55,8 @@ CREATE TABLE visits (
 
 ALTER SEQUENCE
 specializations_id_seq RESTART WITH 1
+
+/* Part V */
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
