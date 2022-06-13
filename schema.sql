@@ -55,3 +55,14 @@ CREATE TABLE visits (
 
 ALTER SEQUENCE
 specializations_id_seq RESTART WITH 1
+
+/* Part V */
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX animals_id_asc ON visits(animals_id ASC);
+
+CREATE INDEX vets_id_asc ON visits(vets_id ASC);
+
+CREATE INDEX email_asc ON owners(email ASC);

@@ -128,3 +128,11 @@ visits.date_of_visit BETWEEN '2020-04-01' AND '2020-08-01';
   WHERE vets.name = 'Vet Maisy Smith'
   GROUP BY vets.name, species.name
   ORDER BY COUNT DESC LIMIT 1;
+
+  /* Part V */
+
+  EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animals_id = 4;
+
+  EXPLAIN ANALYZE  SELECT * FROM visits where vets_id = 2;
+   
+  EXPLAIN ANALYZE  SELECT * FROM owners where email = 'owner_18327@mail.com';
