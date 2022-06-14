@@ -2,6 +2,9 @@
 In this project I will use a relational database to create the initial data structure for a Vet Clinic. I will create a table to store animals' information, insert some data into it, and query it.
 
 
+## Entitiy Relationship Diagram of Vet-Clinic-Database
+![screenshot](./diagrams/vets_table.png)
+
 ## Built With
 
 - PostgreSQL
